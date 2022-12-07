@@ -1,0 +1,148 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  color: white;
+  min-height: 10vh;
+  padding-left: 44%;
+  padding-right: 20%;
+}
+
+#title {
+  font-size: 1.7rem;
+}
+
+#favorite-meals-link {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+#favorite-meals-link:hover {
+  color: aquamarine;
+}
+
+/* Main */
+main {
+  height: 90vh;
+  width: 100%;
+}
+
+.search-container {
+  margin-top: 2%;
+}
+
+#search-button {
+  margin-bottom: 3px;
+}
+
+#meal,
+#favourite-meals-container {
+  width: 90%;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.meal-item {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 30px;
+  width: 20%;
+  height: auto;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.meal-img {
+  position: relative;
+}
+
+.meal-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+.meal-name {
+  text-align: center;
+  height: 100px;
+  font-size: 0.8rem;
+}
+
+.meal-name h3 {
+  font-size: 1.3rem;
+  margin: 5% 0;
+}
+
+.meal-name a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: block;
+  margin-top: 20px;
+}
+
+.favourite-button,
+.unfavourite-button {
+  margin: 5%;
+}
+
+/* Meal Details */
+
+#meal-details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  border-radius: 10px;
+  width: 95%;
+  height: 95%;
+  overflow-y: scroll;
+  display: none;
+  padding: 2rem 0;
+  background-color: rgb(33, 37, 41);
+  padding: 20px;
+}
+
+.show-recipe {
+  /* important used here to display the details page */
+  display: block !important;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
+
+.recipe-title {
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+
+.recipe-meal-img img {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+}
+
+.recipe-link {
+  margin: 1.4rem 0;
+  text-align: center;
+}
+.recipe-link a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.2s linear;
+  text-decoration: none;
+}
+.recipe-link a:hover {
+  color: aquamarine;
+}
