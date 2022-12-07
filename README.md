@@ -4,11 +4,11 @@ An app that allows users to search for a meal and get the recipe for that meal.[
 
 ## App Interface
 
-![Homepage](assets/homepage.png)
+![Homepage](homepage.png)
 
-![Recipe Details](assets/recipe_details.png)
+![Recipe Details](recipe_details.png)
 
-![Favourites](assets/favourites_page.png)
+![Favourites](favourites_page.png)
 
 ## Features
 
