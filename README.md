@@ -1,6 +1,6 @@
 # Meal-app
 
-An app that allows users to search for a meal and get the recipe for that meal.[click here to view the app]
+An app that allows users to search for a meal and get the recipe for that meal.[click here to view the app]https://khushbukumawat.github.io/Meal-app.github.io/
 
 ## App Interface
 
